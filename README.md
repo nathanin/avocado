@@ -129,3 +129,7 @@ Programmatically there is a built-in function that allows you to pass in data fo
 ```
 
 The model will freeze all the parameters and only learn the embeddings for the new cell types (or assays if you use `fit_assays` instead). Once those new embeddings are used you can impute any epigenomic experiments for the new cell types just as if they were part of the original model!
+
+
+#### Fork info
+Forked from @jmschrei/avocado to add multi-gpu support in Keras, functions to pull down + preprocess tracks from `.bigwig` files to `.npz`, and make compatible with Python 3. -NI
